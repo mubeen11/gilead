@@ -8,11 +8,11 @@ import csv
 import traceback
 import time
 
-api_id = '1657205'
-api_hash = 'ceea1fa9e680daa68d427540c3e71203'
-phone = '+2348081825095'
+api_id = 1998898
+api_hash = '94be9c161ade9c191b9f2520e1090da2'
+phone = '+2347013163341'
 
-session_name = 'scrapper'
+session_name = 'member'
 
 client = TelegramClient(str(session_name), api_id, api_hash)
 
@@ -25,7 +25,7 @@ print('Fetching Members...')
 all_participants = []
 
 #enter target group or channel
-target = 'https://t.me/manditoken'
+target = 'https://t.me/trusttronofficial'
 
 all_participants = client.get_participants(target, aggressive=True)
 
