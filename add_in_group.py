@@ -9,9 +9,9 @@ import traceback
 import time
 import random
 
-api_id = 1998898
-api_hash = '94be9c161ade9c191b9f2520e1090da2'
-phone = '+2347013163341'
+api_id = 1941357
+api_hash = 'a7402e4de1901a9f388734146e82b94c'
+phone = '+2349020241957'
 
 session_name = 'g'
 
